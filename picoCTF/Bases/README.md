@@ -2,7 +2,7 @@
 
 ### Links
 
-- Challenge in [picoCTF](play.picoctf.org/practice/challenge/67)
+- Challenge in [picoCTF](https://play.picoctf.org/practice/challenge/67)
 
 ### Additional Resources
 
