@@ -2,7 +2,7 @@
 
 ### Links
 
-- Challenge in [picoCTF](play.picoctf.org/practice/challenge/85)
+- Challenge in [picoCTF](https://play.picoctf.org/practice/challenge/85)
 
 ### Additional Resources
 - [Grep and Regular Expressions](https://ryanstutorials.net/linuxtutorial/grep.php)

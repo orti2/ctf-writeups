@@ -2,7 +2,7 @@
 
 ### Links
 
-- Challenge in [picoCTF](play.picoctf.org/practice/challenge/46)
+- Challenge in [picoCTF](https://play.picoctf.org/practice/challenge/46)
 
 ### Additional Resources
 - [Burpsuite Community Edition](https://portswigger.net/burp/communitydownload)

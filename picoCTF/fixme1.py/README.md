@@ -2,7 +2,7 @@
 
 ### Links
 
-- Challenge in [picoCTF](play.picoctf.org/practice/challenge/238)
+- Challenge in [picoCTF](https://play.picoctf.org/practice/challenge/238)
 
 ### Steps
 

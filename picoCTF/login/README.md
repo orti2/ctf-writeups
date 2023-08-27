@@ -2,7 +2,7 @@
 
 ### Links
 
-- Challenge in [picoCTF](play.picoctf.org/practice/challenge/200)
+- Challenge in [picoCTF](https://play.picoctf.org/practice/challenge/200)
 
 ### Additional Resources
 - [base64](https://base64.guru/learn/what-is-base64)
