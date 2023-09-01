@@ -1,4 +1,4 @@
-# Bandit 7
+# Bandit 8
 
 ### Links
 
