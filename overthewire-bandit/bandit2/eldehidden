@@ -1,0 +1,27 @@
+# Bandit 2
+
+### Links
+
+- [Bandit Level](https://overthewire.org/wargames/bandit/bandit2.html)
+#### Level Description
+The password for the next level is stored in a hidden file in the inhere directory.
+### Steps
+---
+We can see the directory that contains the we we are interested in by using the **ls** utility to see the contents of the current directory.
+```
+bandit3@bandit:~$ ls
+inhere
+```
+Once inside the directory we can see that the ***ls*** command is not showing us any files or directories. The description says that we're looking for is here indeed. It might be hidden.
+```
+bandit3@bandit:~/inhere$ ls -a
+.  ..  .hidden 
+```
+Now we see the hidden file, we can see what is inside by using the ***cat*** utility.
+```
+bandit3@bandit:~/inhere$ cat .hidden 
+2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+```
+And there is the flag!
+
+***2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe***
