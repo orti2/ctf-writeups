@@ -2,7 +2,7 @@
 
 ### The Bridgekeepers 3rd Question		
 
-![Challenge](challenge.png)
+![Challenge](images/challenge.png)
 
 ### Additional Resources
 
@@ -14,19 +14,19 @@
 
 After accessing the link in the challenge description we see this page:
 
-![landing page](initial_page.png)
+![landing page](images/initial_page.png)
 
 When we click on the message we are asked to enter information into three forms:
 
-![first prompt](prompt1.png)
+![first prompt](images/prompt1.png)
 
-![second prompt](prompt2.png)
+![second prompt](images/prompt2.png)
 
-![third prompt](prompt3.png)
+![third prompt](images/prompt3.png)
 
 After filling the forms the final page has the following message:
 
-![Final_page](final_page.png)
+![Final_page](images/final_page.png)
 
 #### Page Source
 
@@ -187,9 +187,9 @@ print(result)
 ```
 When we run the script we obtain the sting `rebeccapurple`. Now we can try it on the the third form (which is the only one that matters):
 
-![Prompt with answer](prompt_with_answer.png)
+![Prompt with answer](images/prompt_with_answer.png)
 
-![flag](flag.png)
+![flag](images/flag.png)
 
 And there is our flag!
 
