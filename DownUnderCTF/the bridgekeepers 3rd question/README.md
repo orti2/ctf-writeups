@@ -151,7 +151,7 @@ a[17];
 b
 ```
 
-So this means we would have to *walk* through the arrays to eventually get to the only value that is not an array wich is `n="blue"` and `n` is only accessible in array `m`. 
+So this means we would have to *walk* through the arrays to eventually get to the only value that is not an array which is `n="blue"` and `n` is only accessible in array `m`. 
 
 My approach was to visually count which index of interest for each array. These values were obtained:
 
