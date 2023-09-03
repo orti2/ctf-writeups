@@ -185,7 +185,7 @@ for num in indices:
 result = ''.join(characters)
 print(result)
 ```
-When we run the script we obtain the sting `rebeccapurple`. Now we can try it on the the third form (which is the only one that matters):
+When we run the script we obtain the string `rebeccapurple`. Now we can try it on the the third form (which is the only one that matters):
 
 ![Prompt with answer](images/prompt_with_answer.png)
 
