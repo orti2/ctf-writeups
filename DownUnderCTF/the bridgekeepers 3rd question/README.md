@@ -76,7 +76,7 @@ After playing with the forms we can see that it takes us to that final message
 </html>
 ```
 
-In the fourth line we can see a [URL to a youtube video](https://www.youtube.com/watch?v=0D7hFHfLEyk) as an html comment. The video is a clip from *Monty Python and the Holy Grail*, a movie from 1975 and is a reference to the challenge we have here. Its about and old man known as *The Keeper of the Bridge of Death*, he asks three questions and the three of them are correct one can pass through the bridge, if not, they are cast into the *Gorge of Eternal Peril*, which is what we saw earlier! However after reviewing the source code we can see the three questions in the *cross* function:
+In the fourth line we can see a [URL to a youtube video](https://www.youtube.com/watch?v=0D7hFHfLEyk) as an html comment. The video is a clip from *Monty Python and the Holy Grail*, a movie from 1975 and is a reference to the challenge we have here. Its about and old man known as *The Keeper of the Bridge of Death*, he asks three questions and if the three of them are correct one can pass through the bridge, if not, they are cast into the *Gorge of Eternal Peril*, which is what we saw earlier! However after reviewing the source code we can see the three questions in the *cross* function:
 
 ```
 prompt("What is your name?");
