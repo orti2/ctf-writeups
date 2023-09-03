@@ -142,7 +142,7 @@ for (let c of answer) {
 
 ## Solution
 
-After analyzing the *JavaScript* function, I was able to come to the conclusion that the for loop iterates over each character of what we input as the answer, then it obtains the decimal value of its UTF-16 encoding value and it subtracts 97 from it. Finally, it reassigns it own value to `walk[<UTF-16_int_value - 97]` which if we consider the first iteration, since *walk* is initially assigned the value of a (an array) `walk = a;` , its value essentially changes to `a[n]` where `n` is equal to the decimal UTF-16 value of the first character of our answer minus 97. If we pay close attention to the values of each array, we can see that there is one specific index which could lead us to the next array, hence the term walking. For example when considering array a:
+After analyzing the *JavaScript* function, I was able to come to the conclusion that the for loop iterates over each character of what we input as the answer, then it obtains the decimal value of its UTF-16 encoding value and it subtracts 97 from it. Finally, it reassigns it own value to `walk[<UTF-16_int_value> - 97]` which if we consider the first iteration, since *walk* is initially assigned the value of a (an array) `walk = a;` , its value essentially changes to `a[n]` where `n` is equal to the decimal UTF-16 value of the first character of our answer minus 97. If we pay close attention to the values of each array, we can see that there is one specific index which could lead us to the next array, hence the term walking. For example when considering array a:
 
 ```  
 a
