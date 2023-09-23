@@ -8,17 +8,14 @@ The password for the next level is stored in the file data.txt, which is a hexdu
 ### Steps
 ---
 
-We are hinted that *data.txt* is a hexdump of multipple file compressions, it is also suggested to make a temporary directory under */tmp/* directory to be able to decompress the files. I decided to copy the file to my local system and do everything from there.
-```
-
-First we have to reverse the hex to obtain the file in binary and properly observe it:
+We are hinted that *data.txt* is a hexdump of multipple file compressions, it is also suggested to make a temporary directory under */tmp/* directory to be able to decompress the files. I decided to copy the file to my local system and do everything from there. With that said, first we have to reverse the hex to obtain the file in binary and properly observe it:
 
 ```
 oly@libertad:~/ctfs/ctf-writeups/overthewire-bandit/bandit12 -$ xxd -r data.txt > binary
 oly@libertad:~/ctfs/ctf-writeups/overthewire-bandit/bandit12 -$ file binary 
 binary: gzip compressed data, was "data2.bin", last modified: Sun Apr 23 18:04:23 2023, max compression, from Unix, original size modulo 2^32 581
 oly@libertad:~/ctfs/ctf-writeups/overthewire-bandit/bandit12 -$ 
-
+```
 
 Now we can see that what we obtained from reversing the hexdump is a gzip compressed file. We can use the gzip tool to decompress that, but first, we need to add the extension *gzip*, as it will not work otherwise:
 
