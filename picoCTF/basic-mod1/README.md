@@ -60,7 +60,7 @@ Another list for the special characters (which are just numbers from 0 to 10):
 special = list(range(10)
 ```
 
-And then I defined a list called *dictionary* which contains all the specified items for mapping/decrypting the message. *map it to the following character set: 0-25 is the alphabet (uppercase), 26-35 are the decimal digits, and 36 is an underscore. Wrap your decrypted message in the picoCTF flag format*
+And then I defined a list called *dictionary* which contains all the specified items for mapping/decrypting the message. "*map it to the following character set: 0-25 is the alphabet (uppercase), 26-35 are the decimal digits, and 36 is an underscore. Wrap your decrypted message in the picoCTF flag format*":
 
 ```
 dictionary = upper + special + ['_']
