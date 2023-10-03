@@ -3,10 +3,9 @@
 ### Links
 
 - Challenge in [picoCTF](https://play.picoctf.org/practice/challenge/254)
+### Additional Resources
 
 ### Steps
-
-### Additional Resources
 
 - [Modulo](https://www.geeksforgeeks.org/modular-division/)
 - [Modular Multiplicative Inverse](https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/)
