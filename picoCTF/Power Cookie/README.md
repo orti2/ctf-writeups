@@ -3,12 +3,11 @@
 ### Links
 
 - Challenge in [picoCTF]https://play.picoctf.org/practice/challenge/288)
-
-### Steps
-
 ### Additional Resources
 
 - [Burpsuite](https://portswigger.net/burp/communitydownload)
+  
+### Steps
 
 ---
 #### Challenge Description & Hints
