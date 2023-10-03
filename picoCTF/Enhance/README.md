@@ -6,10 +6,6 @@
 
 ### Steps
 
-### Additional Resources
-
-- [Modulo](https://www.geeksforgeeks.org/modular-division/)
-
 ---
 #### Challenge Description & Hints
 
